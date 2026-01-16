@@ -1,0 +1,57 @@
+body{
+    display: flex;
+}
+.red{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    margin: 10px;
+    cursor: pointer;
+}
+.green{
+    width: 250px;
+    height: 250px;
+    background-color: green;
+    margin: 10px;
+    cursor: pointer;
+}
+.blue{
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+    margin: 10px;
+    cursor: pointer; 
+}
+
+/* .hidden{
+    display: none;
+} */
+
+p{
+    cursor: pointer;
+    border: 1px solid;
+    height: 25px;
+    width:fit-content;
+    text-align: center;
+    margin: 6px;
+    padding: 5px;
+}
+
+.search-container{
+    margin-bottom: 20px;
+}
+#searchList{
+    list-style-type: none;
+    padding: 0;
+}
+#searchList li {
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#searchList li.hidden{
+    display: none;
+}
